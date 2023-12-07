@@ -52,10 +52,6 @@
             --neutral-gray: #607D8B;
         }
 
-        /* Typography */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
         body, button, input, select, textarea {
             font-family: 'Lato', sans-serif;
         }
@@ -73,6 +69,10 @@
         .navbar button {
             background-color: var(--voter-white);
             color: var(--ashoka-blue);
+        }
+
+        button, .prev-button {
+            background-color: var(--neutral-gray);
         }
 
         .navbar button:hover {
@@ -153,7 +153,7 @@
         <div class="navbar-container">
             <nav class="border split-nav">
                 <div class="nav-brand">
-                    <h3><a href="#">BLR Vote</a></h3>
+                    <h3><a href="#">🇮🇳 BLR Vote</a></h3>
                 </div>
                 <div class="collapsible">
                     <input id="collapsible1" type="checkbox" name="collapsible1">
@@ -203,20 +203,20 @@
             <h4 class="card-title">1. EPIC</h4>
             <p class="card-text">
                 <p>
-                    ~Takes 2 mins.
+                    EPIC is your voter ID number. Click Next if you already have yours.
                 </p>
                 <p>
-                Open <a href="https://electoralsearch.eci.gov.in/" target="_blank">this site.</a>
+                If you don't, open <a href="https://electoralsearch.eci.gov.in/" target="_blank">this site.</a>
                 </p>
                 <p>
                     Enter the following info on that site:
                     <ul>
-                        <li>state you were registered</li>
-                        <li>first name</li>
-                        <li>relative's first name</li>
-                        <li>date of birth</li>
-                        <li>gender</li>
-                        <li>captcha</li>
+                        <li>State you were registered</li>
+                        <li>First name</li>
+                        <li>Relative's first name (Mostly your father)</li>
+                        <li>Date of birth</li>
+                        <li>Gender</li>
+                        <li>Captcha</li>
                     </ul>
             
                 <p>
@@ -228,6 +228,7 @@
                 
             </p>
         </p>
+            <button class="prev-button" onclick="navigate('prev', 2)">Previous</button>
             <button onclick="navigate('next', 2)">Next</button>
           </div>
         </div>
@@ -247,7 +248,7 @@
 
             <div id="map"></div>
 
-            <button onclick="navigate('prev', 3)">Previous</button>
+            <button class="prev-button" onclick="navigate('prev', 3)">Previous</button>
             <button onclick="navigate('next', 3)">Next</button>
           </div>
         </div>
@@ -263,7 +264,7 @@
                     1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
                     nvsp.in earlier, the same one is valid here.
                 </p>
-                <p>2. Go here, and file Form 8.</p>
+                <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and file your application using the credentials you signed up with.</p>
                 <p>
                     For address proof, you can use any of:
                     <ul>
@@ -279,7 +280,7 @@
                 3. Join this Telegram group if you're stuck somewhere and we are happy to help!
                 </p>
             </p>
-            <button onclick="navigate('prev', 4)">Previous</button>
+            <button class="prev-button" onclick="navigate('prev', 4)">Previous</button>
             <button onclick="finishWizard()">Finish</button>
           </div>
         </div>
@@ -320,7 +321,7 @@
 
     function finishWizard() {
         // Logic to finalize the wizard or navigate away
-        alert("Wizard completed!");
+        // alert("Wizard completed!");
     }
 </script>
 
