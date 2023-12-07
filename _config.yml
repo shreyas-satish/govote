@@ -10,3 +10,6 @@ url: "https://blr.vote"
 sass:
   sass_dir: _scss
   quiet_deps: true
+markdown: kramdown
+kramdown:
+  input: Kramdown

@@ -8,7 +8,7 @@ General Elections are soon coming up. Bangalore’s Migrant population is
 [dramatically under-represented][missing-voters]
 in the voting demographic. This website is an attempt to fix this.
 
-#### Credits
+#### Credits {#credits}
 
 - The BBMP constituency map used comes from the [OpenCity project](https://data.opencity.in/dataset/bbmp-wards-delimitation-2023).
 - The design uses [PaperCSS](https://www.getpapercss.com/) under the ISC License.
