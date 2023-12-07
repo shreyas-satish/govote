@@ -1,3 +1,40 @@
+// A mapping from assembly constituency ID to
+// PC ID, PC Name, ECI District
+const CONSTITUENCY_MAP = {
+  "150": ["27","Chikkaballapur","BANGALORE URBAN"],
+  "151": ["24","Bangalore North","B.B.M.P (NORTH)"],
+  "152": ["24","Bangalore North","BANGALORE URBAN"],
+  "153": ["24","Bangalore North","BANGALORE URBAN"],
+  "154": ["23","Bangalore Rural","B.B.M.P (CENTRAL)"],
+  "155": ["24","Bangalore North","BANGALORE URBAN"],
+  "156": ["24","Bangalore North","B.B.M.P (NORTH)"],
+  "157": ["24","Bangalore North","B.B.M.P (NORTH)"],
+  "158": ["24","Bangalore North","B.B.M.P (NORTH)"],
+  "159": ["24","Bangalore North","B.B.M.P (NORTH)"],
+  "160": ["25","Bangalore Central","B.B.M.P (NORTH)"],
+  "161": ["25","Bangalore Central","B.B.M.P (NORTH)"],
+  "162": ["25","Bangalore Central","B.B.M.P (CENTRAL)"],
+  "163": ["25","Bangalore Central","B.B.M.P (CENTRAL)"],
+  "164": ["25","Bangalore Central","B.B.M.P (CENTRAL)"],
+  "165": ["25","Bangalore Central","B.B.M.P (CENTRAL)"],
+  "166": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "167": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "168": ["25","Bangalore Central","B.B.M.P (CENTRAL)"],
+  "169": ["26","Bangalore South","B.B.M.P (CENTRAL)"],
+  "170": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "171": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "172": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "173": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "174": ["25","Bangalore Central","BANGALORE URBAN"],
+  "175": ["26","Bangalore South","B.B.M.P (SOUTH)"],
+  "176": ["23","Bangalore Rural","BANGALORE URBAN"],
+  "177": ["23","Bangalore Rural","BANGALORE URBAN"],
+  "178": ["27","Chikkaballapur","BANGALORE RURAL"],
+  "179": ["27","Chikkaballapur","BANGALORE RURAL"],
+  "180": ["27","Chikkaballapur","BANGALORE RURAL"],
+  "181": ["27","Chikkaballapur","BANGALORE RURAL"]
+}
+
 function findFeaturesContainingPoint(geojson, pointCoordinates) {
   
     const matchingFeatures = [];
@@ -19,7 +56,6 @@ function findFeaturesContainingPoint(geojson, pointCoordinates) {
 loadJSONFile("/assets/pincodes.json").then((pincodeMap) =>{
   const pincodeInput = document.getElementById('pincode');
   pincodeInput.addEventListener('input', (e) => {
-    console.log(e.target)
     if (e.target.value.length == 6) {
       let postOffice = pincodeMap[pincodeInput.value];
       if (postOffice) {
@@ -173,11 +209,20 @@ function initializeMap(apiKey, initialCenter) {
     let details = "Not in a Bangalore Constituency"
     if (features.length == 1) {
       ward = window.ward = wardLookup[features[0].properties['id'].toString()]
+      let acID = ward['ac_id'];
+      let pcId = CONSTITUENCY_MAP[acID][0];
+      let pcName = CONSTITUENCY_MAP[acID][1];
+      let eciDistrict = CONSTITUENCY_MAP[acID][2];
       details = `<div>
       <strong>Assembly Constituency</strong>: ${ward['ac_id']} - ${ward['ac_name']}<br>
-      <br><br>Parliamentary Constituency: <br>${ward['pc_id']} - ${ward['pc_name']}<br>
-      <br><br>Ward: <br>${ward['id']} - ${ward['name']}
+      <strong>District</strong>: ${eciDistrict}<br>
+      <br>Parliamentary Constituency: <br>${pcId} - ${pcName}<br>
+      <br>Ward: <br>${ward['id']} - ${ward['name']}
       </div>`;
+
+      console.log(details)
+
+      document.getElementById('location-details').innerHTML = details;
     }
     infowindow.setContent(details);
     infowindow.open(map, marker);
