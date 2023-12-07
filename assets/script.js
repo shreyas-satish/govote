@@ -17,9 +17,9 @@ function findFeaturesContainingPoint(geojson, pointCoordinates) {
 }
 
 // Example usage:
-const geojsonFile = "bbmp-2023.geojson";
+const geojsonFile = "/assets/bbmp-2023.geojson";
 
-loadJSONFile("wards.json").then((wardData)=>{
+loadJSONFile("/wards.json").then((wardData)=>{
   window.wardLookup = {};
 
   // Generate the wardLookup dictionary using the "id" key
@@ -91,7 +91,7 @@ function initializeMap(apiKey, initialCenter) {
       const geolocationControl = document.createElement('div');
       geolocationControl.className = 'custom-control';
       geolocationControl.title = 'Geolocate';
-      geolocationControl.innerHTML = '<img src="geolocate-icon.png" alt="Geolocate">';
+      geolocationControl.innerHTML = '<img src="/assets/geolocate-icon.png" alt="Geolocate">';
 
 
       map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(geolocationControl);
