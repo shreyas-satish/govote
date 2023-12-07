@@ -190,7 +190,7 @@
                      This whole process should take 10 minutes, but don't worry!
                 </p>
                 <p>
-                This guide will make it nice and easy for you. Oh and we also have a Telegram group, in case you get stuck
+                This guide will make it nice and easy for you. Oh and we also have a <a href="https://t.me/+gkKLJTPgIlM1Nzhl" target="_blank">Telegram group</a>, in case you get stuck!
                  </p>
             </p>
             <button onclick="navigate('next', 1)">Let's do this!</button>
@@ -249,7 +249,7 @@
 
             <div id="map"></div>
 
-            <button class="prev-button" onclick="navigate('prev', 3)">Previous</button>
+            <button class="prev-button margin-top-2" onclick="navigate('prev', 3)">Previous</button>
             <button onclick="navigate('next', 3)">Next</button>
           </div>
         </div>
@@ -268,24 +268,47 @@
                 <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and file your application using the credentials you signed up with.</p>
                 <p>
                     For address proof, you can use any of:
+                </p>
                     <ul>
                         <li>Rental Agreement</li>
                         <li>Driver's License</li>
                         <li>Passport</li>
                         <li>Post received from Post Office</li>
                     </ul>
+                <p>
 
                     Note that your address proof must be compressed to less than 2MB.
                 </p>
+                
                 <p>
-                3. Join this Telegram group if you're stuck somewhere and we are happy to help!
+                3. Join this <a href="https://t.me/+gkKLJTPgIlM1Nzhl" target="_blank">Telegram group</a> if you're stuck somewhere and we are happy to help!
                 </p>
             </p>
             <button class="prev-button" onclick="navigate('prev', 4)">Previous</button>
-            <button onclick="finishWizard()">Finish</button>
+            <button onclick="navigate('next', 4)">Next</button>
           </div>
         </div>
     </div>
+
+    <div id="section5" class="section margin-top-bottom">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Share</h4>
+            <p class="card-text">
+                All set? Well, let's hope your application gets approved and you get to vote in Bangalore in 2024!
+            </p>
+            <p>
+                Meanwhile, do share it with your friends and family! Here's a template for you to use.
+            </p>
+            <p>
+                Hey! Check out this neat guide that helps you change your address for the voter id so you can vote from Bangalore! https://blr.vote
+            </p>
+            <button class="prev-button margin-top-2" onclick="navigate('prev', 5)">Previous</button>
+          </div>
+        </div>
+
+    </div>
+
 
     <footer class='margin-top-2'>
         <p>Made with <span class="heart">❤️</span> for <span class="flag">🇮🇳</span> by <a href="https://tatooine.club/@nemo" target="_blank">Nemo</a> and <a href="https://twitter.com/shreyas_satish">Shreyas</a></p>
@@ -305,14 +328,14 @@
         }
 
         // Wrap around the steps if necessary
-        if (newStep > 4) {
+        if (newStep > 5) {
             newStep = 1;
         } else if (newStep < 1) {
-            newStep = 4;
+            newStep = 5;
         }
 
         // Hide all sections
-        for (let i = 1; i <= 4; i++) {
+        for (let i = 1; i <= 5; i++) {
             document.getElementById('section' + i).classList.remove('active');
         }
 
