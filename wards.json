@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "1",
+    "name": "Kempegowda Ward",
+    "ac_id": "150",
+    "ac_name": "Yelahanka",
+    "pc_id": "27",
+    "pc_name": "Chikballapur"
+  },
+  {
+    "id": "10",
+    "name": "Byatarayanapura",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "100",
+    "name": "Garudachar Palya",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "101",
+    "name": "Dodda Nekkundi",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "102",
+    "name": "AECS Layout",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "103",
+    "name": "White Field",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "104",
+    "name": "Varthuru",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "105",
+    "name": "Munekollal",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "106",
+    "name": "Marathahalli",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "107",
+    "name": "Bellanduru",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "108",
+    "name": "Cox Town",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "109",
+    "name": "Benniganahalli",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "11",
+    "name": "Kodigehalli",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "110",
+    "name": "C V Raman Nagar",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "111",
+    "name": "Kaggadasanapura",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "112",
+    "name": "New Tippasandara",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "113",
+    "name": "Hoysala Nagar",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "114",
+    "name": "Jeevanbhima Nagar",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "115",
+    "name": "Konena Agrahara",
+    "ac_id": "161",
+    "ac_name": "C.V. Raman Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "116",
+    "name": "Ramaswamypalya",
+    "ac_id": "162",
+    "ac_name": "Shivaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "117",
+    "name": "Vasanthnagar",
+    "ac_id": "162",
+    "ac_name": "Shivaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "118",
+    "name": "Sampangiram Nagar",
+    "ac_id": "162",
+    "ac_name": "Shivaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "119",
+    "name": "Shivaji Nagar",
+    "ac_id": "162",
+    "ac_name": "Shivaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "12",
+    "name": "Dodda Bommasandra",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "120",
+    "name": "Bharathi Nagar",
+    "ac_id": "162",
+    "ac_name": "Shivaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "121",
+    "name": "Ulsoor",
+    "ac_id": "162",
+    "ac_name": "Shivaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "122",
+    "name": "Dattatreya Temple",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "123",
+    "name": "Gandhinagar",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "124",
+    "name": "Subhash Nagar",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "125",
+    "name": "Okalipuram",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "126",
+    "name": "Binnipete",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "127",
+    "name": "Cottonpete",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "128",
+    "name": "Chickpete",
+    "ac_id": "164",
+    "ac_name": "Gandhi Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "129",
+    "name": "Dayananda Nagar",
+    "ac_id": "165",
+    "ac_name": "Rajaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "13",
+    "name": "Vidyaranyapura",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "130",
+    "name": "Sriramamandir",
+    "ac_id": "165",
+    "ac_name": "Rajaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "131",
+    "name": "Shivanagara",
+    "ac_id": "165",
+    "ac_name": "Rajaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "132",
+    "name": "Rajaji Nagar",
+    "ac_id": "165",
+    "ac_name": "Rajaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "133",
+    "name": "Basaveshwara Nagar",
+    "ac_id": "165",
+    "ac_name": "Rajaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "134",
+    "name": "Kamakshipalya",
+    "ac_id": "165",
+    "ac_name": "Rajaji Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "135",
+    "name": "Dr. Raj Kumar Agrahara Dasarahalli",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "136",
+    "name": "Govindaraja Nagar",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "137",
+    "name": "Marenahalli",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "138",
+    "name": "Kaveripura",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "139",
+    "name": "Mudalapalya",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "14",
+    "name": "Kuvempu Nagar",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "140",
+    "name": "Maruthi Mandir ward",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "141",
+    "name": "Nagarabhavi",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "142",
+    "name": "Chandralayout",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "143",
+    "name": "Nayandahalli",
+    "ac_id": "166",
+    "ac_name": "Govindraja Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "144",
+    "name": "Kempapura Agrahara",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "145",
+    "name": "Vijayanagar",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "146",
+    "name": "Hosahalli",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "147",
+    "name": "Hampi Nagar",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "148",
+    "name": "New Guddadahalli",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "149",
+    "name": "Gali Anjaneya Temple Ward",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "15",
+    "name": "Kammagondanahalli",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "150",
+    "name": "Attiguppe",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "151",
+    "name": "Deepanjali Nagar",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "152",
+    "name": "Avalahalli",
+    "ac_id": "167",
+    "ac_name": "Vijaya Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "153",
+    "name": "Padarayanapura",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "154",
+    "name": "Rayapuram",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "155",
+    "name": "Devaraj Urs Nagar",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "156",
+    "name": "Chalavadipalya",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "157",
+    "name": "K R Market",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "158",
+    "name": "Chamrajapet",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "159",
+    "name": "Azad Nagar",
+    "ac_id": "168",
+    "ac_name": "Chamarajpet",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "16",
+    "name": "Mallasandra",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "160",
+    "name": "Dharmaraya Swamy Temple",
+    "ac_id": "169",
+    "ac_name": "Chickpet",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "161",
+    "name": "Silver Jublee Park",
+    "ac_id": "169",
+    "ac_name": "Chickpet",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "162",
+    "name": "Sunkenahalli",
+    "ac_id": "169",
+    "ac_name": "Chickpet",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "163",
+    "name": "Vishveshwara Puram",
+    "ac_id": "169",
+    "ac_name": "Chickpet",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "164",
+    "name": "Hombegowda Nagar",
+    "ac_id": "169",
+    "ac_name": "Chickpet",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "165",
+    "name": "B Venkata Reddy Nagar",
+    "ac_id": "169",
+    "ac_name": "Chickpet",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "166",
+    "name": "Shanthi Nagar",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "167",
+    "name": "Ashok Nagar",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "168",
+    "name": "Nilasandra",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "169",
+    "name": "Vannarpet",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "17",
+    "name": "Chikkasandra",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "170",
+    "name": "Jogupalya",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "171",
+    "name": "Domlur",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "172",
+    "name": "Agaram",
+    "ac_id": "163",
+    "ac_name": "Shanti Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "173",
+    "name": "Ejipura",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "174",
+    "name": "Koramangala",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "175",
+    "name": "Jakkasandra",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "176",
+    "name": "Adugodi",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "177",
+    "name": "Lakkasandra",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "178",
+    "name": "Suddagunte Palya",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "179",
+    "name": "Madivala",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "18",
+    "name": "Bagalakunte",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "180",
+    "name": "Someswara Temple Ward",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "181",
+    "name": "BTM Layout",
+    "ac_id": "172",
+    "ac_name": "B.T.M. Layout",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "182",
+    "name": "Byrasandra",
+    "ac_id": "173",
+    "ac_name": "Jayanagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "183",
+    "name": "Gurappanapalya",
+    "ac_id": "173",
+    "ac_name": "Jayanagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "184",
+    "name": "Jayanagar East",
+    "ac_id": "173",
+    "ac_name": "Jayanagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "185",
+    "name": "J P Nagar",
+    "ac_id": "173",
+    "ac_name": "Jayanagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "186",
+    "name": "Shakambari Nagar",
+    "ac_id": "173",
+    "ac_name": "Jayanagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "187",
+    "name": "Sarakki",
+    "ac_id": "173",
+    "ac_name": "Jayanagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "188",
+    "name": "Yediyur",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "189",
+    "name": "Ganesh Mandir ward",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "19",
+    "name": "T Dasarahalli",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "190",
+    "name": "Devagiri Temple Ward",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "191",
+    "name": "Banashankari Temple ward",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "192",
+    "name": "Kumaraswamy Layout",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "193",
+    "name": "Padmanabha Nagar",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "194",
+    "name": "Chikkalsandra",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "195",
+    "name": "Hosakerehalli",
+    "ac_id": "171",
+    "ac_name": "Padmanaba Nagar",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "196",
+    "name": "Gavi Gangadhareshwara",
+    "ac_id": "170",
+    "ac_name": "Basavanagudi",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "197",
+    "name": "Srinagar",
+    "ac_id": "170",
+    "ac_name": "Basavanagudi",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "198",
+    "name": "Dodda Ganapati",
+    "ac_id": "170",
+    "ac_name": "Basavanagudi",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "199",
+    "name": "Vidyapeeta ward",
+    "ac_id": "170",
+    "ac_name": "Basavanagudi",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "2",
+    "name": "Chowdeswari Ward",
+    "ac_id": "150",
+    "ac_name": "Yelahanka",
+    "pc_id": "27",
+    "pc_name": "Chikballapur"
+  },
+  {
+    "id": "20",
+    "name": "Nalagadarenahalli",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "200",
+    "name": "Swamy Vivekananda",
+    "ac_id": "170",
+    "ac_name": "Basavanagudi",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "201",
+    "name": "Katriguppe",
+    "ac_id": "170",
+    "ac_name": "Basavanagudi",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "202",
+    "name": "Uttarahalli",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "203",
+    "name": "Subrahmanyapura",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "204",
+    "name": "Vasanthpura",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "205",
+    "name": "Yelchenahalli",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "206",
+    "name": "Konanakunte",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "207",
+    "name": "RBI layout",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "208",
+    "name": "Anjanapura",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "209",
+    "name": "Gottigere",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "21",
+    "name": "Chokkasandra",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "210",
+    "name": "Kalena Agrahara",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "211",
+    "name": "Begur",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "212",
+    "name": "Naganathapura",
+    "ac_id": "176",
+    "ac_name": "Bangalore South",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "213",
+    "name": "Jaraganahalli",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "214",
+    "name": "Puttenahalli",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "215",
+    "name": "Bilekhalli",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "216",
+    "name": "Hulimavu",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "217",
+    "name": "Kodichikkanahalli",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "218",
+    "name": "Bommanahalli",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "219",
+    "name": "Hongasandra",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "22",
+    "name": "Peenya Industrial Area",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "220",
+    "name": "Gharebhavipalya",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "221",
+    "name": "HSR Layout",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "222",
+    "name": "Ibluru",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "223",
+    "name": "Mangammanapalya",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "224",
+    "name": "Hosa Road",
+    "ac_id": "175",
+    "ac_name": "Bommanahalli",
+    "pc_id": "26",
+    "pc_name": "Bangalore South"
+  },
+  {
+    "id": "225",
+    "name": "Kudlu",
+    "ac_id": "177",
+    "ac_name": "Anekal",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "23",
+    "name": "Rajagopal Nagar",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "24",
+    "name": "Hegganahalli",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "25",
+    "name": "Sunkadakatte",
+    "ac_id": "155",
+    "ac_name": "Dasarahalli",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "26",
+    "name": "Dodda Bidarakallu",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "27",
+    "name": "Lingadheeranahalli",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "28",
+    "name": "Herohalli",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "29",
+    "name": "Ullalu",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "3",
+    "name": "Atturu",
+    "ac_id": "150",
+    "ac_name": "Yelahanka",
+    "pc_id": "27",
+    "pc_name": "Chikballapur"
+  },
+  {
+    "id": "30",
+    "name": "Nagadevanahalli",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "31",
+    "name": "Bande Mutt",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "32",
+    "name": "Kengeri",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "33",
+    "name": "Hemmigepura",
+    "ac_id": "153",
+    "ac_name": "Yeshvanthapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "34",
+    "name": "JP Park",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "35",
+    "name": "Yeshwanthpura",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "36",
+    "name": "Jalahalli",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "37",
+    "name": "Peenya",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "38",
+    "name": "Laxmidevi Nagar",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "39",
+    "name": "Laggere",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "4",
+    "name": "Yelahanka Satellite Town",
+    "ac_id": "150",
+    "ac_name": "Yelahanka",
+    "pc_id": "27",
+    "pc_name": "Chikballapur"
+  },
+  {
+    "id": "40",
+    "name": "Chowdeshwari Nagar",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "41",
+    "name": "Kottegepalya",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "42",
+    "name": "Srigandhadakaval",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "43",
+    "name": "Malathalli",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "44",
+    "name": "Jnana Bharathi ward",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "45",
+    "name": "Rajarajeshwari Nagar",
+    "ac_id": "154",
+    "ac_name": "Rajarajeshwari Nagar",
+    "pc_id": "23",
+    "pc_name": "Bangalore Rural"
+  },
+  {
+    "id": "46",
+    "name": "Rajiv Nagar",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "47",
+    "name": "Dr. Puneet Rajkumar",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "48",
+    "name": "Mahalakshmipuram",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "49",
+    "name": "Nagapura",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "5",
+    "name": "Kogilu",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "50",
+    "name": "Nalvadi Krishna Raja Wadiyar",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "51",
+    "name": "Shankar Matt",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "52",
+    "name": "Shakthi Ganapathi Nagar",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "53",
+    "name": "Vrisabhavathi Nagar",
+    "ac_id": "156",
+    "ac_name": "Mahalaxmi Layout",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "54",
+    "name": "Mattikere",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "55",
+    "name": "Malleswaram",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "56",
+    "name": "Aramane Nagara",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "57",
+    "name": "Rajamahal Guttahalli",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "58",
+    "name": "Kadu Malleshwar Ward",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "59",
+    "name": "Subramanya Nagar",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "6",
+    "name": "Jakkuru",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "60",
+    "name": "Gayithri Nagar",
+    "ac_id": "157",
+    "ac_name": "Malleswaram",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "61",
+    "name": "Radhakrishna Temple Ward",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "62",
+    "name": "Sanjaya Nagar",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "63",
+    "name": "Hebbala",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "64",
+    "name": "Vishwanath Nagenahalli",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "65",
+    "name": "Manorayanapalya",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "66",
+    "name": "Chamundi Nagara",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "67",
+    "name": "Ganga Nagar",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "68",
+    "name": "Jayachamarajendra  Nagar",
+    "ac_id": "158",
+    "ac_name": "Hebbal",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "69",
+    "name": "Kaval Bairasandra",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "7",
+    "name": "Thanisandra",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "70",
+    "name": "Kushal Nagar",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "71",
+    "name": "Muneshwara Nagar",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "72",
+    "name": "Devara Jeevanahalli",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "73",
+    "name": "S K Garden",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "74",
+    "name": "Sagayarapuram",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "75",
+    "name": "Pulikeshinagar",
+    "ac_id": "159",
+    "ac_name": "Pulakeshi Nagar",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "76",
+    "name": "Hennur",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "77",
+    "name": "Nagavara",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "78",
+    "name": "HBR Layout",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "79",
+    "name": "Kadugondanahalli",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "8",
+    "name": "Amrutahalli",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "80",
+    "name": "Kacharkanahalli",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "81",
+    "name": "Kammanahalli",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "82",
+    "name": "Banasavadi",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "83",
+    "name": "Subbayyanapalya",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "84",
+    "name": "Lingarajapura",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "85",
+    "name": "Maruthi Seva Nagar",
+    "ac_id": "160",
+    "ac_name": "Sarvargna Nagar",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "86",
+    "name": "Challakere",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "87",
+    "name": "Horamavu",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "88",
+    "name": "Kalkere",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "89",
+    "name": "Vijinapura",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "9",
+    "name": "Hebbal Kempapura",
+    "ac_id": "152",
+    "ac_name": "Byatarayanapura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "90",
+    "name": "Ramamurthy Nagar",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "91",
+    "name": "K R Puram",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "92",
+    "name": "Basavanapura",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "93",
+    "name": "Devasandra",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "94",
+    "name": "A. Narayanapura",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "95",
+    "name": "Vijnana Nagar",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "96",
+    "name": "HAL Airport",
+    "ac_id": "151",
+    "ac_name": "K.R.Pura",
+    "pc_id": "24",
+    "pc_name": "Bangalore North"
+  },
+  {
+    "id": "97",
+    "name": "Kadugodi",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "98",
+    "name": "Hudi",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  },
+  {
+    "id": "99",
+    "name": "Byrathi",
+    "ac_id": "174",
+    "ac_name": "Mahadevapura",
+    "pc_id": "25",
+    "pc_name": "Bangalore Central"
+  }
+]

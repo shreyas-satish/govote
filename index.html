@@ -121,10 +121,30 @@
  
 
     </style>
+    <style type="text/css">
+        #map {
+      height: 400px;
+      width: 100%;
+    }
+
+    #addressInput {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .custom-control {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .custom-control img {
+    width: 20px;
+    height: 20px;
+  }</style>
 </head>
 <body>
-
-
 
 
 <div class="container">
@@ -218,8 +238,15 @@
           <div class="card-body">
             <h4 class="card-title">2. Location</h4>
             <p class="card-text">
-                Let's find your district, post office, assembly constituency
+                Let's find your district, post office, assembly constituency.
+                Type your address, or click the crosshair button
+                if you're on your phone - it might take a few seconds.
             </p>
+
+            <input id="addressInput" type="text" placeholder="Enter address" value="">
+
+            <div id="map"></div>
+
             <button onclick="navigate('prev', 3)">Previous</button>
             <button onclick="navigate('next', 3)">Next</button>
           </div>
@@ -233,9 +260,10 @@
             <h4 class="card-title">3. File</h4>
             <p class="card-text">
                 <p>
-                    1. Sign up for an account <a href="https://voters.eci.gov.in/signup" target="_blank">here</a>.
+                    1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
+                    nvsp.in earlier, the same one is valid here.
                 </p>
-                <p>2. Go here, and file your application.</p>
+                <p>2. Go here, and file Form 8.</p>
                 <p>
                     For address proof, you can use any of:
                     <ul>
@@ -244,6 +272,8 @@
                         <li>Passport</li>
                         <li>Post received from Post Office</li>
                     </ul>
+
+                    Note that your address proof must be compressed to less than 2MB.
                 </p>
                 <p>
                 3. Join this Telegram group if you're stuck somewhere and we are happy to help!
@@ -256,7 +286,7 @@
     </div>
 
     <footer class='margin-top-2'>
-        <p>Made with <span class="heart">❤️</span> for <span class="flag">🇮🇳</span> by <a href="https://twitter.com/captn3m0" target="_blank">Nemo</a> and <a href="https://twitter.com/shreyas_satish">Shreyas</a></p>
+        <p>Made with <span class="heart">❤️</span> for <span class="flag">🇮🇳</span> by <a href="https://tatooine.club/@nemo" target="_blank">Nemo</a> and <a href="https://twitter.com/shreyas_satish">Shreyas</a></p>
     </footer>
 
 </div>
@@ -294,5 +324,7 @@
     }
 </script>
 
+<script src="https://unpkg.com/@turf/turf@latest"></script>
+<script src="script.js"></script>
 </body>
 </html>
