@@ -16,6 +16,21 @@ function findFeaturesContainingPoint(geojson, pointCoordinates) {
     return matchingFeatures;
 }
 
+loadJSONFile("/assets/pincodes.json").then((pincodeMap) =>{
+  const pincodeInput = document.getElementById('pincode');
+  pincodeInput.addEventListener('input', (e) => {
+    console.log(e.target)
+    if (e.target.value.length == 6) {
+      let postOffice = pincodeMap[pincodeInput.value];
+      if (postOffice) {
+        document.getElementById('pincode-message').style.display="block";
+        window.postOffice = document.getElementById('post-office').innerText = postOffice;
+        document.getElementById('mapholder').style.display='block';
+      }
+    }
+  });
+})
+
 // Example usage:
 const geojsonFile = "/assets/bbmp-2023.geojson";
 

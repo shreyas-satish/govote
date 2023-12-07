@@ -34,22 +34,22 @@ title: Home
 <div id="section2" class="section margin-top-bottom">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">1. EPIC</h4>
+        <h4 class="card-title">1. EPIC (Voter ID)</h4>
         <p class="card-text">
             <p>
-                EPIC is your voter ID number. Click Next if you already have yours.
+                EPIC is your voter ID number. Click Next if you already have it with you, or if you've never registered to vote in India.
             </p>
             <p>
-            If you don't, open <a href="https://electoralsearch.eci.gov.in/" target="_blank">this site.</a>
+            It will be on your existing Voter ID card. If you can't find your Voter ID, open <a href="https://electoralsearch.eci.gov.in/" target="_blank">electoralsearch.eci.gov.in</a>.
             </p>
             <p>
                 Enter the following info on that site:
                 <ul>
-                    <li>State you were registered</li>
-                    <li>First name</li>
-                    <li>Relative's first name (Mostly your father)</li>
-                    <li>Date of birth</li>
-                    <li>Gender</li>
+                    <li>State where your last Voter ID was issued.</li>
+                    <li>Your first name</li>
+                    <li>Your relative's first name (Mostly your father)</li>
+                    <li>Your date of birth</li>
+                    <li>Your gender</li>
                     <li>Captcha</li>
                 </ul>
         
@@ -57,11 +57,11 @@ title: Home
             And hit Search.
         </p>
         <p>
-            Found your EPIC number? Awesome, copy it somewhere.
+            Found your EPIC number? Awesome, copy it somewhere and click Next</p>
         </p>
-            
+        <p>
+            <strong>Stuck?</strong> Reach out for help on <a href="https://t.me/+gkKLJTPgIlM1Nzhl">Telegram</a> or <a href="#">WhatsApp</a>
         </p>
-    </p>
         <button class="prev-button" onclick="navigate('prev', 2)">Previous</button>
         <button onclick="navigate('next', 2)">Next</button>
       </div>
@@ -71,22 +71,30 @@ title: Home
 <div id="section3" class="section margin-top-bottom">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">2. Location</h4>
+        <h4 class="card-title">2. Address</h4>
         <p class="card-text">
-            <p>Let's find your district, post office, assembly constituency.</p>
-            <p>
-            Type your address, or click the crosshair button
-            if you're on your phone - it might take a few seconds.
-            </p>
-            <p>
-                Copy the Assembly Constituency for the next step.
-            </p>
+            <p>Let's find your voting district, post office, and your assembly constituency.</p>
+            <div id=pinholder class="form-group">
+                <label for="pincode">Pincode:</label>
+                <input pattern="56\d{4}" title="Please enter a valid Bangalore pincode" required id="pincode" type="text" maxlength="6"  minlength=6 size=6 placeholder="56____">
+            </div>
+            <div id="pincode-message" style="display:none">Your Post Office is <strong><span id="post-office"></span></strong></div>
+            <!-- TODO: Give an option to skip the pincode? -->
+            <div id="mapholder" style="display:none">
+                <p><strong>Next: Constituency</strong></p>
+                <p>
+                    Type your address (or a building close enough to your residential address), or click the crosshair button
+                    to automatically detect your address
+                    if you're on your phone - it might take a few seconds. You will have to grant location permissions.
+                </p>
+                <p>
+                    Click next once you've. If you're confused, you can view a more detailed map at <a href="/map">/map</a>.
+                </p>
+                <input id="addressInput" type="text" placeholder="Enter address" value="">
+
+                <div id="map"></div>
+            </div>
         </p>
-
-        <input id="addressInput" type="text" placeholder="Enter address" value="">
-
-        <div id="map"></div>
-
         <button class="prev-button margin-top-2" onclick="navigate('prev', 3)">Previous</button>
         <button onclick="navigate('next', 3)">Next</button>
       </div>
@@ -97,13 +105,13 @@ title: Home
 <div id="section4" class="section margin-top-bottom">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">3. File</h4>
+        <h4 class="card-title">3. Fill your Form 6/8</h4>
         <p class="card-text">
             <p>
                 1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
                 nvsp.in earlier, the same one is valid here.
             </p>
-            <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and file your application using the credentials you signed up with.</p>
+            <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and submit Form 8 (or Form 6 if you've never had a voter ID) using the credentials you signed up with.</p>
             <p>
                 For address proof, you can use any of:
             </p>

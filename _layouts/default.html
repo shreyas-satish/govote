@@ -121,9 +121,21 @@
             font-size: 20px;
         }
 
+        /* We don't like the paper shadow effect, since it creates jitter */
         .card {
             width: 90%;
             margin: 1rem;
+            box-shadow: none !important;
+        }
+        .card:hover {
+          transform: none ! important;
+          box-shadow: none !important;
+        }
+        input:invalid {
+          background-color: ivory;
+          border: none;
+          outline: 2px solid red;
+          border-radius: 5px;
         }
         #map {
       height: 400px;
@@ -145,7 +157,9 @@
   .custom-control img {
     width: 20px;
     height: 20px;
-  }</style>
+  }
+
+    </style>
   <script defer data-domain="blr.vote" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
@@ -172,7 +186,7 @@
 
 
 <script src="https://unpkg.com/@turf/turf@latest"></script>
-<script src="/script.js"></script>
+<script src="/assets/script.js"></script>
 
 </body>
 </html>
