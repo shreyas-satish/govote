@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Wizard with PaperCSS</title>
+    <link rel="stylesheet" href="https://unpkg.com/papercss/dist/paper.min.css">
+    <style type="text/css">
+        .container {
+            max-width: 400px; /* Width of the mobile-like layout */
+            margin: 0 auto; /* Center the container */
+            background-color: #fff; /* Background color for the container */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better focus */
+        }
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .margin-top-bottom {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .margin-top-2 {
+            margin-top: 2rem;
+        }
+        /* Branding CSS for blr.vote */
+
+        /* Color Palette */
+        :root {
+            --democracy-blue: #1947D1;
+            --voter-white: #FFFFFF;
+            --indian-saffron: #FF9933;
+            --regal-purple: #512DA8;
+            --slate-gray: #607D8B;
+        }
+
+        /* Typography */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+        /* Branding CSS for blr.vote */
+
+        /* Color Palette */
+        :root {
+            --ashoka-blue: #1947D1; /* Blue of the Ashoka Chakra */
+            --voter-white: #FFFFFF;
+            --neutral-gray: #607D8B;
+        }
+
+        /* Typography */
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+        body, button, input, select, textarea {
+            font-family: 'Lato', sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Navbar Styles */
+        .navbar {
+            background-color: var(--ashoka-blue);
+            color: var(--voter-white);
+        }
+
+        .navbar button {
+            background-color: var(--voter-white);
+            color: var(--ashoka-blue);
+        }
+
+        .navbar button:hover {
+            background-color: var(--neutral-gray);
+            color: var(--voter-white);
+        }
+
+        /* Button Styles */
+        button, .btn, .btn-primary {
+            background-color: var(--ashoka-blue);
+            color: var(--voter-white);
+        }
+
+        .card-margin {
+            margin: 1rem;
+        }
+
+        button:hover, .btn:hover, .btn-primary:hover {
+            background-color: var(--neutral-gray);
+            color: var(--voter-white);
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--neutral-gray);
+            color: var(--voter-white);
+            font-size: 16px;
+        }
+
+        /* Custom Styles */
+        .heart {
+            color: red;
+        }
+
+        .flag {
+            font-size: 20px;
+        }
+
+        .card {
+            width: 18rem;
+            margin: 1rem;
+        }
+
+ 
+
+    </style>
+</head>
+<body>
+
+
+
+
+<div class="container">
+
+    <header>
+        <div class="navbar-container">
+            <nav class="border split-nav">
+                <div class="nav-brand">
+                    <h3><a href="#">BLR Vote</a></h3>
+                </div>
+                <div class="collapsible">
+                    <input id="collapsible1" type="checkbox" name="collapsible1">
+                    <button>
+                        <label for="collapsible1">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </label>
+                    </button>
+                    <div class="collapsible-body">
+                        <ul class="inline">
+                            <!-- <li><a href="#">Telegram Group</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="section1" class="section active margin-top-bottom">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">1. EPIC</h4>
+            <p class="card-text">
+                <p>
+                    ~Takes 2 mins.
+                </p>
+                <p>
+                Open <a href="https://electoralsearch.eci.gov.in/" target="_blank">this site.</a>
+                </p>
+                <p>
+                    Enter the following info on that site:
+                    <ul>
+                        <li>state you were registered</li>
+                        <li>first name</li>
+                        <li>relative's first name</li>
+                        <li>date of birth</li>
+                        <li>gender</li>
+                        <li>captcha</li>
+                    </ul>
+            
+                <p>
+                And hit Search.
+            </p>
+            <p>
+                Found your EPIC number? Awesome, copy it somewhere.
+            </p>
+                
+            </p>
+        </p>
+            <button onclick="navigate('next', 1)">Next</button>
+          </div>
+        </div>
+    </div>
+
+    <div id="section2" class="section margin-top-bottom">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">2. Location</h4>
+            <p class="card-text">
+                Let's find your district, post office, assembly constituency
+            </p>
+            <button onclick="navigate('prev', 2)">Previous</button>
+            <button onclick="navigate('next', 2)">Next</button>
+          </div>
+        </div>
+
+    </div>
+
+    <div id="section3" class="section margin-top-bottom">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">3. File</h4>
+            <p class="card-text">
+                <p>
+                    Sign up for an account <a href="https://voters.eci.gov.in/signup" target="_blank">here</a>.
+                </p>
+                <p>Go here, and file your application.</p>
+
+                <p>You have the details you need</p>
+
+                <p>Make sure you use the latest Chrome or Firefox.</p>
+                <p>
+                Join this Telegram group i
+                you're stuck somewhere and
+                we are happy to help!
+                </p>
+            </p>
+            <button onclick="navigate('prev', 3)">Previous</button>
+            <button onclick="finishWizard()">Finish</button>
+          </div>
+        </div>
+    </div>
+
+    <footer class='margin-top-2'>
+        <p>Made with <span class="heart">❤️</span> for <span class="flag">🇮🇳</span> by Nemo and Shreyas</p>
+    </footer>
+
+</div>
+
+
+
+<script>
+    function navigate(direction, currentStep) {
+        let newStep;
+        if (direction === 'next') {
+            newStep = currentStep + 1;
+        } else {
+            newStep = currentStep - 1;
+        }
+
+        // Wrap around the steps if necessary
+        if (newStep > 3) {
+            newStep = 1;
+        } else if (newStep < 1) {
+            newStep = 4;
+        }
+
+        // Hide all sections
+        for (let i = 1; i <= 3; i++) {
+            document.getElementById('section' + i).classList.remove('active');
+        }
+
+        // Show the new section
+        document.getElementById('section' + newStep).classList.add('active');
+    }
+
+    function finishWizard() {
+        // Logic to finalize the wizard or navigate away
+        alert("Wizard completed!");
+    }
+</script>
+
+</body>
+</html>
