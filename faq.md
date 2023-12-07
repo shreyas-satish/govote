@@ -23,3 +23,7 @@ Yes, we wanted to launch early.
 ### I want to help
 
 Share this with your friends and family. Get them to register to vote. Reach out if they face any issues.
+
+#### I don't have a pre existing voter Id, help?
+
+Fill Form 6 with the same details instead of Form 8.
