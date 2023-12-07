@@ -41,17 +41,18 @@
 }
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
     font-size: 18px; /* Example font size */
     line-height: 1.5; /* This is 1.5 times the font size */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
+    font-weight: 400;
 }
 
 a, button, html, input, li, option, p, select, table, tbody, td, textarea, th, thead, tr {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Libre Franklin', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif; 
     line-height: 1.5; /* This is 1.5 times the font size */
 }
 
@@ -147,4 +148,13 @@ input:invalid {
 }
 .card .card-body .card-link+.card-link, .card .card-body a+a {
 margin-left: 0;
+}
+
+@font-face {
+  font-family: 'Libre Franklin';
+  src: URL('/assets/LibreFranklin.ttf') format('truetype');
+}
+
+.section::after {
+  content: "";
 }
