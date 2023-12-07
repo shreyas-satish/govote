@@ -1,307 +1,140 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BLR Vote</title>
-    <link rel="stylesheet" href="https://unpkg.com/papercss/dist/paper.min.css">
-    <style type="text/css">
-        .container {
-            max-width: 400px; /* Width of the mobile-like layout */
-            margin: 0 auto; /* Center the container */
-            background-color: #fff; /* Background color for the container */
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better focus */
-        }
-        .section {
-            display: none;
-        }
+---
+layout: default
+title: Home
+---
 
-        .section.active {
-            display: block;
-        }
-
-        .margin-top-bottom {
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .margin-top-2 {
-            margin-top: 2rem;
-        }
-        /* Branding CSS for blr.vote */
-
-        /* Color Palette */
-        :root {
-            --democracy-blue: #1947D1;
-            --voter-white: #FFFFFF;
-            --indian-saffron: #FF9933;
-            --regal-purple: #512DA8;
-            --slate-gray: #607D8B;
-        }
-
-        /* Typography */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
-
-        /* Branding CSS for blr.vote */
-
-        /* Color Palette */
-        :root {
-            --ashoka-blue: #1947D1; /* Blue of the Ashoka Chakra */
-            --voter-white: #FFFFFF;
-            --neutral-gray: #607D8B;
-        }
-
-        body, button, input, select, textarea {
-            font-family: 'Lato', sans-serif;
-        }
-
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Roboto', sans-serif;
-        }
-
-        /* Navbar Styles */
-        .navbar {
-            background-color: var(--ashoka-blue);
-            color: var(--voter-white);
-        }
-
-        .navbar button {
-            background-color: var(--voter-white);
-            color: var(--ashoka-blue);
-        }
-
-        button, .prev-button {
-            background-color: var(--neutral-gray);
-        }
-
-        .navbar button:hover {
-            background-color: var(--neutral-gray);
-            color: var(--voter-white);
-        }
-
-        /* Button Styles */
-        button, .btn, .btn-primary {
-            background-color: var(--ashoka-blue);
-            color: var(--voter-white);
-        }
-
-        .card-margin {
-            margin: 1rem;
-        }
-
-        button:hover, .btn:hover, .btn-primary:hover {
-            background-color: var(--neutral-gray);
-            color: var(--voter-white);
-        }
-
-        /* Footer Styles */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #f2f2f2;
-            color: #000;
-            font-size: 16px;
-        }
-
-        /* Custom Styles */
-        .heart {
-            color: red;
-        }
-
-        .flag {
-            font-size: 20px;
-        }
-
-        .card {
-            width: 90%;
-            margin: 1rem;
-        }
-
- 
-
-    </style>
-    <style type="text/css">
-        #map {
-      height: 400px;
-      width: 100%;
-    }
-
-    #addressInput {
-      width: 100%;
-      margin-bottom: 10px;
-    }
-
-    .custom-control {
-    background: #fff;
-    border: 1px solid #ccc;
-    padding: 8px;
-    cursor: pointer;
-  }
-
-  .custom-control img {
-    width: 20px;
-    height: 20px;
-  }</style>
-  <script defer data-domain="blr.vote" src="https://plausible.io/js/script.js"></script>
-</head>
-<body>
-
-
-<div class="container">
-
-    <header>
-        <div class="navbar-container">
-            <nav class="border split-nav">
-                <div class="nav-brand">
-                    <h3><a href="#">🇮🇳 BLR Vote</a></h3>
-                </div>
-            </nav>
-        </div>
-    </header>
-
-    <div id="section1" class="section active margin-top-bottom">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Welcome!</h4>
-            <p class="card-text">
-                <p>
-                 This is a simple guide to help you update your address for your voter id.
-                 </p>
-                 <p>
-                     If you live in Bangalore but your voter id address is still set to your hometown or to an older address, this guide is for you!
-                 </p>
-                 <p>
-                     This whole process should take 10 minutes, but don't worry!
-                </p>
-                <p>
-                This guide will make it nice and easy for you. Oh and we also have a <a href="https://t.me/+gkKLJTPgIlM1Nzhl" target="_blank">Telegram group</a>, in case you get stuck!
-                 </p>
-            </p>
-            <button onclick="navigate('next', 1)">Let's do this!</button>
-          </div>
-        </div>
-    </div>
-
-    <div id="section2" class="section margin-top-bottom">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">1. EPIC</h4>
-            <p class="card-text">
-                <p>
-                    EPIC is your voter ID number. Click Next if you already have yours.
-                </p>
-                <p>
-                If you don't, open <a href="https://electoralsearch.eci.gov.in/" target="_blank">this site.</a>
-                </p>
-                <p>
-                    Enter the following info on that site:
-                    <ul>
-                        <li>State you were registered</li>
-                        <li>First name</li>
-                        <li>Relative's first name (Mostly your father)</li>
-                        <li>Date of birth</li>
-                        <li>Gender</li>
-                        <li>Captcha</li>
-                    </ul>
-            
-                <p>
-                And hit Search.
+<div id="section1" class="section active margin-top-bottom">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Welcome!</h4>
+        <p class="card-text">
+            <p>
+             This is a simple guide to help you update your address for your voter id.
+             </p>
+             <p>
+                 If you live in Bangalore but your voter id address is still set to your hometown or to an older address, this guide is for you!
+             </p>
+             <p>
+                 This whole process should take 10 minutes, but don't worry!
             </p>
             <p>
-                Found your EPIC number? Awesome, copy it somewhere.
-            </p>
-                
-            </p>
+            This guide will make it nice and easy for you. Oh and we also have a <a href="https://t.me/+gkKLJTPgIlM1Nzhl" target="_blank">Telegram group</a>, in case you get stuck!
+             </p>
         </p>
-            <button class="prev-button" onclick="navigate('prev', 2)">Previous</button>
-            <button onclick="navigate('next', 2)">Next</button>
-          </div>
-        </div>
+        <button onclick="navigate('next', 1)">Let's do this!</button>
+      </div>
     </div>
+</div>
 
-    <div id="section3" class="section margin-top-bottom">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">2. Location</h4>
-            <p class="card-text">
-                Let's find your district, post office, assembly constituency.
-                Type your address, or click the crosshair button
-                if you're on your phone - it might take a few seconds.
-            </p>
-
-            <input id="addressInput" type="text" placeholder="Enter address" value="">
-
-            <div id="map"></div>
-
-            <button class="prev-button margin-top-2" onclick="navigate('prev', 3)">Previous</button>
-            <button onclick="navigate('next', 3)">Next</button>
-          </div>
-        </div>
-
-    </div>
-
-    <div id="section4" class="section margin-top-bottom">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">3. File</h4>
-            <p class="card-text">
-                <p>
-                    1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
-                    nvsp.in earlier, the same one is valid here.
-                </p>
-                <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and file your application using the credentials you signed up with.</p>
-                <p>
-                    For address proof, you can use any of:
-                </p>
-                    <ul>
-                        <li>Rental Agreement</li>
-                        <li>Driver's License</li>
-                        <li>Passport</li>
-                        <li>Post received from Post Office</li>
-                    </ul>
-                <p>
-
-                    Note that your address proof must be compressed to less than 2MB.
-                </p>
-                
-                <p>
-                3. Join this <a href="https://t.me/+gkKLJTPgIlM1Nzhl" target="_blank">Telegram group</a> if you're stuck somewhere and we are happy to help!
-                </p>
-            </p>
-            <button class="prev-button" onclick="navigate('prev', 4)">Previous</button>
-            <button onclick="navigate('next', 4)">Next</button>
-          </div>
-        </div>
-    </div>
-
-    <div id="section5" class="section margin-top-bottom">
-        <div class="card">
-          <div class="card-body">
-            <h4 class="card-title">Share</h4>
-            <p class="card-text">
-                All set? Well, let's hope your application gets approved and you get to vote in Bangalore in 2024!
+<div id="section2" class="section margin-top-bottom">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">1. EPIC</h4>
+        <p class="card-text">
+            <p>
+                EPIC is your voter ID number. Click Next if you already have yours.
             </p>
             <p>
-                Meanwhile, do share it with your friends and family! Here's a template for you to use.
+            If you don't, open <a href="https://electoralsearch.eci.gov.in/" target="_blank">this site.</a>
             </p>
             <p>
-                Hey! Check out this neat guide that helps you change your address for the voter id so you can vote from Bangalore! https://blr.vote
-            </p>
-            <button class="prev-button margin-top-2" onclick="navigate('prev', 5)">Previous</button>
-          </div>
-        </div>
-
+                Enter the following info on that site:
+                <ul>
+                    <li>State you were registered</li>
+                    <li>First name</li>
+                    <li>Relative's first name (Mostly your father)</li>
+                    <li>Date of birth</li>
+                    <li>Gender</li>
+                    <li>Captcha</li>
+                </ul>
+        
+            <p>
+            And hit Search.
+        </p>
+        <p>
+            Found your EPIC number? Awesome, copy it somewhere.
+        </p>
+            
+        </p>
+    </p>
+        <button class="prev-button" onclick="navigate('prev', 2)">Previous</button>
+        <button onclick="navigate('next', 2)">Next</button>
+      </div>
     </div>
+</div>
 
+<div id="section3" class="section margin-top-bottom">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">2. Location</h4>
+        <p class="card-text">
+            Let's find your district, post office, assembly constituency.
+            Type your address, or click the crosshair button
+            if you're on your phone - it might take a few seconds.
+        </p>
 
-    <footer class='margin-top-2'>
-        <p>Made with <span class="heart">❤️</span> for <span class="flag">🇮🇳</span> by <a href="https://tatooine.club/@nemo" target="_blank">Nemo</a> and <a href="https://twitter.com/shreyas_satish">Shreyas</a></p>
-    </footer>
+        <input id="addressInput" type="text" placeholder="Enter address" value="">
+
+        <div id="map"></div>
+
+        <button class="prev-button margin-top-2" onclick="navigate('prev', 3)">Previous</button>
+        <button onclick="navigate('next', 3)">Next</button>
+      </div>
+    </div>
 
 </div>
 
+<div id="section4" class="section margin-top-bottom">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">3. File</h4>
+        <p class="card-text">
+            <p>
+                1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
+                nvsp.in earlier, the same one is valid here.
+            </p>
+            <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and file your application using the credentials you signed up with.</p>
+            <p>
+                For address proof, you can use any of:
+            </p>
+                <ul>
+                    <li>Rental Agreement</li>
+                    <li>Driver's License</li>
+                    <li>Passport</li>
+                    <li>Post received from Post Office</li>
+                </ul>
+            <p>
 
+                Note that your address proof must be compressed to less than 2MB.
+            </p>
+            
+            <p>
+            3. Join this <a href="https://t.me/+gkKLJTPgIlM1Nzhl" target="_blank">Telegram group</a> if you're stuck somewhere and we are happy to help!
+            </p>
+        </p>
+        <button class="prev-button" onclick="navigate('prev', 4)">Previous</button>
+        <button onclick="navigate('next', 4)">Next</button>
+      </div>
+    </div>
+</div>
+
+<div id="section5" class="section margin-top-bottom">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Share</h4>
+        <p class="card-text">
+            All set? Well, let's hope your application gets approved and you get to vote in Bangalore in 2024!
+        </p>
+        <p>
+            Meanwhile, do share it with your friends and family! Here's a template for you to use.
+        </p>
+        <p>Hey! Check out this neat guide that helps you change your address for the voter id so you can vote from Bangalore! https://blr.vote</p>
+        <button class="prev-button margin-top-2" onclick="navigate('prev', 5)">Previous</button>
+        <button id="copyButton">Copy</button>
+      </div>
+    </div>
+
+</div>
 
 <script>
     function navigate(direction, currentStep) {
@@ -328,14 +161,16 @@
         document.getElementById('section' + newStep).classList.add('active');
     }
 
-    function finishWizard() {
-        // Logic to finalize the wizard or navigate away
-        // alert("Wizard completed!");
-    }
+    document.getElementById('copyButton').addEventListener('click', function() {
+        const textToCopy = "Hey! Check out this neat guide that helps you change your address for the voter id so you can vote from Bangalore! https://blr.vote";
+        navigator.clipboard.writeText(textToCopy)
+            .then(() => {
+                // Success message or action
+            })
+            .catch(err => {
+                // Error handling
+                console.error('Error in copying text: ', err);
+            });
+    });
+
 </script>
-
-<script src="https://unpkg.com/@turf/turf@latest"></script>
-<script src="script.js"></script>
-
-</body>
-</html>
