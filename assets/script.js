@@ -19,7 +19,7 @@ function findFeaturesContainingPoint(geojson, pointCoordinates) {
 // Example usage:
 const geojsonFile = "/assets/bbmp-2023.geojson";
 
-loadJSONFile("/wards.json").then((wardData)=>{
+loadJSONFile("/assets/wards.json").then((wardData)=>{
   window.wardLookup = {};
 
   // Generate the wardLookup dictionary using the "id" key
