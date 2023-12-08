@@ -101,16 +101,10 @@ title: Home
 <div id="section4" class="section margin-top-bottom">
     <div class="card">
       <div class="card-body">
-        <h4 class="card-title">3. Fill your Form 6/8</h4>
+        <h4 class="card-title">3. Address Proof</h4>
         <p class="card-text">
             <p>
-                1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
-                nvsp.in earlier, the same one is valid here.
-            </p>
-            <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and submit Form 8 (or Form 6 if you've never had a voter ID) using the credentials you signed up with.</p>
-            <div id="location-details"></div>
-            <p>
-                For address proof, you can use any of:
+                Best to get this ready before you apply. You can use any of:
             </p>
                 <ul>
                     <li>Rental Agreement</li>
@@ -118,13 +112,11 @@ title: Home
                     <li>Passport</li>
                     <li>Post received from Post Office</li>
                 </ul>
+                <p>
+                    Don't have any of these? You can <a href="https://forms.gle/UtJDzGAjYzLY3s7k7" target="_blank">fill this form</a> to get a postcard as an address proof.
+                </p>
+                <p>Your address proof must be less than 2 MB. If your file is too big, you can <a href="https://acrobat.adobe.com/link/acrobat/compress-pdf?x_api_client_id=adobe_com&x_api_client_location=compress_pdf" target="=_blank">this tool</a> to compress your PDF.</p>
 
-            <p>
-                Don't have any of these? You can <a href="https://forms.gle/UtJDzGAjYzLY3s7k7">fill this form</a> to get a postcard as an address proof.
-            </p><p>
-
-                Note that your address proof must be compressed to less than 2MB.
-            </p>            
         </p>
         {% include stuck.html %}
         <button class="prev-button" onclick="navigate('prev', 4)">Previous</button>
@@ -134,6 +126,28 @@ title: Home
 </div>
 
 <div id="section5" class="section margin-top-bottom">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">4. Fill your Form 6/8</h4>
+        <p class="card-text">
+            <div class="row flex-spaces">
+              <div class="alert alert-secondary">The ECI website is best used on desktop.</div>
+            </div>
+            <p>
+                1. Sign up for an account at <a href="https://voters.eci.gov.in/signup" target="_blank">voters.eci.gov.in</a>. If you had an account at
+                nvsp.in earlier, the same one is valid here.
+            </p>
+            <p>2. Go <a href="https://voters.eci.gov.in/login" target="_blank">here</a>, and submit Form 8 (or Form 6 if you've never had a voter ID) using the credentials you signed up with.</p>
+            <div id="location-details"></div>
+        </p>
+        {% include stuck.html %}
+        <button class="prev-button" onclick="navigate('prev', 5)">Previous</button>
+        <button onclick="navigate('next', 5)">Next</button>
+      </div>
+    </div>
+</div>
+
+<div id="section6" class="section margin-top-bottom">
     <div class="card">
       <div class="card-body">
         <h4 class="card-title">Share</h4>
@@ -153,6 +167,8 @@ title: Home
 <script>
     function navigate(direction, currentStep) {
         let newStep;
+        let steps = 6;
+
         if (direction === 'next') {
             newStep = currentStep + 1;
         } else {
@@ -160,14 +176,14 @@ title: Home
         }
 
         // Wrap around the steps if necessary
-        if (newStep > 5) {
+        if (newStep > steps) {
             newStep = 1;
         } else if (newStep < 1) {
             newStep = 5;
         }
 
         // Hide all sections
-        for (let i = 1; i <= 5; i++) {
+        for (let i = 1; i <= steps; i++) {
             document.getElementById('section' + i).classList.remove('active');
         }
 
