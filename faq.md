@@ -7,7 +7,8 @@ title: FAQ
 
 You can [fill this form](https://forms.gle/UtJDzGAjYzLY3s7k7) to get a postcard as an address proof.
 
-**Why is there a deadline of 9th December {#deadline}?**
+**Why is there a deadline of 9th December?** 
+{: #deadline}
 
 Election Commission has published the Karnataka [Draft Electoral Rolls](https://voters.eci.gov.in/download-eroll?stateCode=S10) for the 2024 General
 Elections on October 27th. The final rolls are expected to be published around early January.
@@ -27,8 +28,8 @@ Share this with your friends and family. Get them to register to vote. Reach out
 **The map says my address is not in Bangalore**
 
 The map only tracks BBMP constituencies, so a few Bengaluru Rural/Urban constituencies that aren't
-under BBMP are not covered. You can still use the form to register to vote, we will add some
-more resources here soon.
+under BBMP are not covered. You can still use the form to register to vote, and check your
+address against <https://kgis.ksrsac.in/pollinginfo/> for now.
 
 **I don't have a pre existing voter Id, help?**
 
