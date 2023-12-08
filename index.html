@@ -72,10 +72,11 @@ title: Home
                 <label for="pincode">Pincode:</label>
                 <input pattern="56\d{4}" title="Please enter a valid Bangalore pincode" required id="pincode" type="text" maxlength="6"  minlength=6 size=6 placeholder="56____">
             </div>
-            <div id="pincode-message" style="display:none">Your Post Office is <strong><span id="post-office"></span></strong></div>
+            <div id="pincode-message" style="display:none">Your Post Office is one of <strong><ul id="post-office"></ul></strong></div>
             <!-- TODO: Give an option to skip the pincode? -->
             <div id="mapholder" style="display:none">
-                <p><strong>Next: Constituency</strong></p>
+                <br>
+                <p><strong>Next Up: Constituency</strong></p>
                 <p>
                     Type your address (or a building close enough to your residential address), or click the crosshair button
                     to automatically detect your address

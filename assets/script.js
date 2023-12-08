@@ -53,14 +53,25 @@ function findFeaturesContainingPoint(geojson, pointCoordinates) {
     return matchingFeatures;
 }
 
-loadJSONFile("/assets/pincodes.json").then((pincodeMap) =>{
+loadJSONFile("/assets/pincodes.json").then((pincodeList) =>{
+
+  function getPostOffices(pincode) {
+    let postOffices = [];
+    pincodeList.forEach((item) => {
+      if (item[0] == pincode) {
+        postOffices.push(item[1]);
+      }
+    });
+    return postOffices;
+  }
+
   const pincodeInput = document.getElementById('pincode');
   pincodeInput.addEventListener('input', (e) => {
     if (e.target.value.length == 6) {
-      let postOffice = pincodeMap[pincodeInput.value];
-      if (postOffice) {
+      let postOffices = getPostOffices(e.target.value);
+      if (postOffices.length > 0) {
         document.getElementById('pincode-message').style.display="block";
-        window.postOffice = document.getElementById('post-office').innerText = postOffice;
+        window.postOffice = document.getElementById('post-office').innerHTML = "<li>" + postOffices.join("</li><li>") + "</li>";
         document.getElementById('mapholder').style.display='block';
       }
     }
