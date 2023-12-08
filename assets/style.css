@@ -1,3 +1,22 @@
+
+/* Color Palette */
+:root {
+    --democracy-blue: #1947D1;
+    --voter-white: #FFFFFF;
+    --indian-saffron: #FF9933;
+    --regal-purple: #512DA8;
+    --slate-gray: #607D8B;
+}
+
+/* Branding CSS for blr.vote */
+
+/* Color Palette */
+:root {
+    --ashoka-blue: #1947D1; /* Blue of the Ashoka Chakra */
+    --voter-white: #FFFFFF;
+    --neutral-gray: #607D8B;
+}
+
 .container {
     max-width: 400px; /* Width of the mobile-like layout */
     margin: 0 auto; /* Center the container */
@@ -20,24 +39,13 @@
 .margin-top-2 {
     margin-top: 2rem;
 }
-/* Branding CSS for blr.vote */
 
-/* Color Palette */
-:root {
-    --democracy-blue: #1947D1;
-    --voter-white: #FFFFFF;
-    --indian-saffron: #FF9933;
-    --regal-purple: #512DA8;
-    --slate-gray: #607D8B;
+.bold {
+    font-weight: bold;
 }
 
-/* Branding CSS for blr.vote */
-
-/* Color Palette */
-:root {
-    --ashoka-blue: #1947D1; /* Blue of the Ashoka Chakra */
-    --voter-white: #FFFFFF;
-    --neutral-gray: #607D8B;
+.nav-brand a,.nav-brand a:visited {
+    margin-left: 1rem;
 }
 
 body {
