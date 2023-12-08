@@ -255,7 +255,7 @@ function initializeMap(apiKey, initialCenter) {
           </tr>
           <tr>
             <td><strong>Post Office (Pick One)</strong></td>
-            <td><ul>${window.postOffice}</ul></td>
+            <td><ul class='p0'>${window.postOffice}</ul></td>
           </tr>
           ${wardDetails}
         </tbody>

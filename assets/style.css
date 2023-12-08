@@ -44,8 +44,16 @@
     font-weight: bold;
 }
 
+.card .card-body .card-subtitle, .card .card-body h5 {
+    color: var(--primary);
+}
+
 .nav-brand a,.nav-brand a:visited {
     margin-left: 1rem;
+}
+
+.p0 {
+    padding:0;
 }
 
 body {
