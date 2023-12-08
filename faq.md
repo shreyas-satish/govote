@@ -26,4 +26,5 @@ Share this with your friends and family. Get them to register to vote. Reach out
 
 **I don't have a pre existing voter Id, help?**
 
-Fill Form 6 with the same details instead of Form 8.
+Fill Form 6 with the same details instead of Form 8. Make sure you were born
+before 1st January 2006, or you will be too young to vote this time.
