@@ -24,6 +24,12 @@ Yes, we wanted to launch early.
 
 Share this with your friends and family. Get them to register to vote. Reach out if they face any issues.
 
+**The map says my address is not in Bangalore**
+
+The map only tracks BBMP constituencies, so a few Bengaluru Rural/Urban constituencies that aren't
+under BBMP are not covered. You can still use the form to register to vote, we will add some
+more resources here soon.
+
 **I don't have a pre existing voter Id, help?**
 
 Fill Form 6 with the same details instead of Form 8. Make sure you were born
