@@ -206,8 +206,6 @@ function initializeMap(apiKey, initialCenter) {
     map.setZoom(18);
     marker.setPosition(location);
 
-    JSON.stringify(window.wardLookup)
-
     if (typeof location.lat == 'function') {
       lat = location.lat()
       lng = location.lng()
@@ -219,6 +217,7 @@ function initializeMap(apiKey, initialCenter) {
     features = findFeaturesContainingPoint(window.geojson, turf.point([lng, lat]));
     let details = "Couldn't find a Bangalore Constituency, check FAQ"
     let tehsil = "Bangalore"; // until we have more clarity, this works
+    let wardDetails = "";
     if (features.length == 1) {
       ward = window.ward = wardLookup[features[0].properties['id'].toString()]
       let acID = ward['ac_id'];
@@ -233,6 +232,12 @@ function initializeMap(apiKey, initialCenter) {
           <td><strong>Assembly Constituency (AC)</strong></td>
           <td>${ward['ac_id']} - ${ward['ac_name']}</td>
         </tr>`;
+
+
+      wardDetails = `<tr>
+        <td><strong>Ward</strong></td>
+        <td>${ward['id']} - ${ward['name']}</td>
+      </tr>`;
       details = `
       <table>
         <tbody>
@@ -252,6 +257,7 @@ function initializeMap(apiKey, initialCenter) {
             <td><strong>Post Office (Pick One)</strong></td>
             <td><ul>${window.postOffice}</ul></td>
           </tr>
+          ${wardDetails}
         </tbody>
       </table>`;
     }
