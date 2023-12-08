@@ -218,18 +218,30 @@ function initializeMap(apiKey, initialCenter) {
 
     features = findFeaturesContainingPoint(window.geojson, turf.point([lng, lat]));
     let details = "Not in a Bangalore Constituency"
+    let tehsil = "Bangalore"; // until we have more clarity, this works
     if (features.length == 1) {
       ward = window.ward = wardLookup[features[0].properties['id'].toString()]
       let acID = ward['ac_id'];
       let pcId = CONSTITUENCY_MAP[acID][0];
       let pcName = CONSTITUENCY_MAP[acID][1];
       let eciDistrict = CONSTITUENCY_MAP[acID][2];
-      details = `<div>
-      <strong>Assembly Constituency</strong>: ${ward['ac_id']} - ${ward['ac_name']}<br>
-      <strong>District</strong>: ${eciDistrict}<br>
-      <br>Parliamentary Constituency: <br>${pcId} - ${pcName}<br>
-      <br>Ward: <br>${ward['id']} - ${ward['name']}
-      </div>`;
+      details = `
+      <table>
+        <tbody>
+          <tr>
+            <td><strong>District</strong></td>
+            <td>${eciDistrict}</td>
+          </tr>
+          <tr>
+            <td><strong>Assembly Constituency (AC)</strong></td>
+            <td>${ward['ac_id']} - ${ward['ac_name']}</td>
+          </tr>
+          <tr>
+            <td><strong>Tehsil</strong></td>
+            <td>${tehsil}</td>
+          </tr>
+        </tbody>
+      </table>`;
 
       console.log(details)
 
