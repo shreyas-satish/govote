@@ -217,7 +217,7 @@ function initializeMap(apiKey, initialCenter) {
     }
 
     features = findFeaturesContainingPoint(window.geojson, turf.point([lng, lat]));
-    let details = "Not in a Bangalore Constituency"
+    let details = "Couldn't find a Bangalore Constituency, check FAQ"
     let tehsil = "Bangalore"; // until we have more clarity, this works
     if (features.length == 1) {
       ward = window.ward = wardLookup[features[0].properties['id'].toString()]
@@ -225,27 +225,35 @@ function initializeMap(apiKey, initialCenter) {
       let pcId = CONSTITUENCY_MAP[acID][0];
       let pcName = CONSTITUENCY_MAP[acID][1];
       let eciDistrict = CONSTITUENCY_MAP[acID][2];
+      let commonDetails = `<tr>
+          <td><strong>District</strong></td>
+          <td>${eciDistrict}</td>
+        </tr>
+        <tr>
+          <td><strong>Assembly Constituency (AC)</strong></td>
+          <td>${ward['ac_id']} - ${ward['ac_name']}</td>
+        </tr>`;
       details = `
       <table>
         <tbody>
-          <tr>
-            <td><strong>District</strong></td>
-            <td>${eciDistrict}</td>
-          </tr>
-          <tr>
-            <td><strong>Assembly Constituency (AC)</strong></td>
-            <td>${ward['ac_id']} - ${ward['ac_name']}</td>
-          </tr>
-          <tr>
-            <td><strong>Tehsil</strong></td>
-            <td>${tehsil}</td>
-          </tr>
+          ${commonDetails}
         </tbody>
       </table>`;
 
-      console.log(details)
-
-      document.getElementById('location-details').innerHTML = details;
+      document.getElementById('location-details').innerHTML = `
+      <table>
+        <tbody>
+          ${commonDetails}
+          <tr>
+            <td><strong>Tehsil/Taluka</strong></td>
+            <td>${tehsil}</td>
+          </tr>
+          <tr>
+            <td><strong>Post Office (Pick One)</strong></td>
+            <td><ul>${window.postOffice}</ul></td>
+          </tr>
+        </tbody>
+      </table>`;
     }
     infowindow.setContent(details);
     infowindow.open(map, marker);

@@ -34,3 +34,8 @@ more resources here soon.
 
 Fill Form 6 with the same details instead of Form 8. Make sure you were born
 before 1st January 2006, or you will be too young to vote this time.
+
+**Bangalore isn't a tehsil/taluka**
+Yes, but the boundaries for Bangalore's various talukas are unclear, and it is okay
+to just submit Bangalore. If you have any suggestions on how to get a taluka from
+an address, please let us know.

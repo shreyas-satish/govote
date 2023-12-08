@@ -196,6 +196,7 @@ title: Home
         const textToCopy = "Hey! Check out this neat guide that helps you change your address for the voter id so you can vote from Bangalore! https://blr.vote";
         navigator.clipboard.writeText(textToCopy)
             .then(() => {
+                // TODO: Flash the copyButton
                 // Success message or action
             })
             .catch(err => {
