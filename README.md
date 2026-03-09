@@ -16,7 +16,7 @@ in the voting demographic. This website is an attempt to fix this.
 - The website is hosted on Netlify, and built using Jekyll.
 - The list of constituencies and districts (as per Form 8) was directly scraped from the ECI Website using their API.
 
-#### Contribute
+##### Contribute
 
 - Share the site with your friends and family.
 - Contributions are welcome [on GitHub](https://github.com/blrvote/blr.vote)
